@@ -25,3 +25,16 @@ spec:
         - name: storage
           persistentVolumeClaim:
             claimName: mongo-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: mongo
+  name: mongo
+spec:
+  ports:
+    - port: 27017
+      targetPort: 27017
+  selector:
+    app: mongo
