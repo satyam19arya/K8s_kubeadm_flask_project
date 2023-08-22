@@ -1,5 +1,5 @@
 # Kubernetes Microservice Flask Application with MongoDB Database
-This is a microservice application built using Flask and deployed on Kubernetes(MiniKube)
+This is a microservice application built using Flask and deployed on Kubernetes
 
 <img width="878" alt="Screenshot 2023-08-18 172934" src="https://github.com/satyam19arya/K8s_kubeadm_flask_project/assets/77580311/a06bb4e0-9195-4564-b1bc-3c59871e5627">
 
