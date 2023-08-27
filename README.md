@@ -1,7 +1,10 @@
 # Kubernetes Microservice Flask Application with MongoDB Database
 This is a microservice application built using Flask and deployed on Kubernetes
-### Prerequisites:
-One master node and one worker node (https://github.com/satyam19arya/kubestarter/blob/main/kubeadm_installation.md)
+
+Setup (3 ways)
+- https://github.com/satyam19arya/kubestarter/blob/main/kubeadm_installation.md
+- https://killercoda.com/playgrounds/scenario/kubernetes
+- https://github.com/satyam19arya/kubestarter/blob/main/minikube_installation.md
 
 Steps:
 ```
