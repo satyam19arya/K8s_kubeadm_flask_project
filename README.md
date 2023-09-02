@@ -27,8 +27,6 @@ curl http://127.0.0.1:30007
 curl http://127.0.0.1:30007/tasks
 curl -d '{"task":"study"}' -H "Content-type: application/json" -X POST http://127.0.0.1:30007/task
 curl http://127.0.0.1:30007/tasks
-kubectl apply -f mongo-express.yml
-curl http://127.0.0.1:30000
 ```
 
 Note: Make sure to open port 30007 in your inbound SG rules
