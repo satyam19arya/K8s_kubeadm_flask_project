@@ -31,7 +31,7 @@ kubectl apply -f mongo-express.yml
 curl http://127.0.0.1:30000
 ```
 
-Note: Make sure to open port 30000 and 30007 in your inbound SG rules
+Note: Make sure to open port 30007 in your inbound SG rules
 
 ## Outputs
 <img width="539" alt="image" src="https://github.com/satyam19arya/K8s_kubeadm_flask_project/assets/77580311/8e65dc40-32e6-4878-a7b7-76931f9c2f4f">
